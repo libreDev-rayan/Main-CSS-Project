@@ -1,0 +1,184 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto-400', sans-serif;
+}
+
+.header{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    height:50px;
+    text-align: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    /* jj */
+    margin: 10px;
+}
+.contant-conainer{
+    flex: 2;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:column;
+}
+.user-card ,.edu {
+    width: 90%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+.card-header img {
+    width :180px;
+    /* max-width: 500px; */
+    /* top:43px; */
+    /* bottom: 80px; */
+    /* position: absolute; */
+    left:135px;
+    border: 1px solid black;    
+    border-radius:50%;
+    background-color: whitesmoke;     
+    /* height: 100px; */
+    padding: 3px;
+}
+
+.card-body {
+    padding: 70px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* and #user-pic
+May delete or hide */
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+/*from old version*/
+.edu-header{
+    background-color: black;
+    color: white;
+    padding: 27px;
+    display:flex;
+    /* flex:1; */
+    /* width: 550px; */
+}
+.notefy{
+    background-color: #999;
+    border-radius:8px;
+    text-align: center;
+    width: 40px;
+    font-size: large;
+}
+.Connection{
+    font-size: small;
+}
+p.connection-notefy{
+    width: 100%;
+    font-size: 24px;
+}
+img{
+    width :26px;
+    margin-right: 5px;
+}
+#user-pic{
+    width :98px;
+    /* max-width: 500px; */
+    top:43px;
+    /* bottom: 80px; */
+    position: absolute;
+    left:135px;
+    border: 1px solid black;    
+    border-radius:50%;
+    background-color: whitesmoke;     
+    height: 100px;
+    padding: 5px;
+    /* margin-top: 20px;
+    margin-left: 20px; */
+}
+.more{
+    text-align: center;
+    flex: 1;
+}
+/* .your-connecton-body{
+    flex:6;
+
+} */
+.hole-box2-body{
+    display: flex;
+    flex-direction:column;
+
+}
+.box-body{
+    display: flex;
+    padding: 20px;
+    flex:4;
+
+    flex-direction:column;
+}
+
+.side-bar{
+    padding:  60px;
+
+    /* padding : 180px; */
+    /* display: flex;
+    flex-direction:column; */
+    position:absolute;
+    top: 35px;
+    right:530px;
+}
+.bar-continar{
+    background-color: rgb(250, 250, 250);
+    border: 1px solid black;
+    margin: 25px;
+    position:relative;
+    box-shadow: 3px 3px 3px grey;
+    /* padding : 10px; */
+    width: 80%;
+    height:230px;
+    /* display: block; */
+    display: flex; 
+    flex-direction:column;
+    /* flex: 3; */
+
+
+}
+button{
+    background-color: aqua;
+    color: #fff;
+    border-radius: 10px;
+    padding: 7px;
+}
